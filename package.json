@@ -2,7 +2,7 @@
   "name": "ovcoselectron",
   "version": "1.0.0",
   "description": "test electron app",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
     "url": "https://github.com/ovcOS/first-electron-app/issues"
   },
   "homepage": "https://github.com/ovcOS/first-electron-app#readme",
-  "devDependencies": {
-    "electron": "^4.1.4"
+  "dependencies": {
+    "electron": "4.1.4"
   }
 }
